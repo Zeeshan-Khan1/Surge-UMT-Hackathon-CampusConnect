@@ -85,21 +85,37 @@ npm run dev
 ```
 src/
 ├── pages/
-│   ├── LandingPage.jsx          # Landing page
-│   ├── LoginPage.jsx            # Login page
-│   ├── SignUpPage.jsx           # Sign up page
+│   ├── LandingPage.jsx           # Landing page
+│   ├── LoginPage.jsx             # Login page
+│   ├── SignUpPage.jsx            # Sign-up page
 │   ├── TalentFinderDashboard.jsx # Dashboard for job posters
 │   ├── TalentSeekerDashboard.jsx # Dashboard for job seekers
-│   ├── JobDetailPage.jsx        # Individual job detail page
+│   ├── JobDetailPage.jsx         # Individual job detail page
 │   ├── ProfilePage.jsx           # User profile management
 │   └── ChatPage.jsx              # Messaging interface
+│
 ├── contexts/
-│   └── AuthContext.jsx           # Authentication context
+│   └── AuthContext.jsx           # Authentication context provider
+│
 ├── services/
-│   ├── database.js               # Database service (localStorage)
-│   └── matchScore.js             # Match score algorithm
-└── App.jsx                       # Main app component with routing
-```
+│   ├── database.js               # Local storage or API simulation
+│   └── matchScore.js             # Algorithm for matching seekers & finders
+│
+├── App.jsx                        # Root component with routing
+├── main.jsx                       # React entry point (renders App)
+├── index.css                      # Global styles
+
+.vscode/                            # VS Code workspace settings
+node_modules/                       # Installed dependencies
+.gitignore                          # Files ignored by Git
+index.html                          # Vite entry HTML
+package.json                        # Project metadata and scripts
+package-lock.json                   # Dependency lock file
+README.md                           # Project documentation
+SETUP_NOTES.md                      # Setup or usage notes
+vite.config.js                      # Vite configuration file
+extract-pdf.js                      # Utility script (for PDF handling)
+
 
 ## Key Features Implementation
 
