@@ -181,6 +181,6 @@ This project was created for the Surge '25 Web Hackathon.
 ## Contributors
 - Zeeshan khan
 - Aiza Dawood
-- Ethisham Tasaquq
+- Ethisham Tasadduq
 
 Built for Surge '25 Web Hackathon competition.
